@@ -17,14 +17,10 @@ body {
   font-family:"Fira Code", sans-serif;
 }
 
-.nameofauthorandbook {
+.Author_and_book {
 text-transform:capitalize;
 }
 
 .tuppercase {
   text-transform:uppercase;
-}
-
-.tdecoration {
-  text-decoration:line-through;
 }
