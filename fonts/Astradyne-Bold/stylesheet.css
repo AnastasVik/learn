@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Astradyne-Bold';
+    src:url('Astradyne-Bold.ttf.woff') format('woff'),
+        url('Astradyne-Bold.ttf.svg#Astradyne-Bold') format('svg'),
+        url('Astradyne-Bold.ttf.eot'),
+        url('Astradyne-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}

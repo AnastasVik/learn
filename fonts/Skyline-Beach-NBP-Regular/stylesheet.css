@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Skyline-Beach-NBP-Regular';
+    src:url('Skyline-Beach-NBP-Regular.ttf.woff') format('woff'),
+        url('Skyline-Beach-NBP-Regular.ttf.svg#Skyline-Beach-NBP-Regular') format('svg'),
+        url('Skyline-Beach-NBP-Regular.ttf.eot'),
+        url('Skyline-Beach-NBP-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}

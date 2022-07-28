@@ -1,26 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
-
+@import url('null.css');
+@import url('../fonts/SYN_Nova_squirrel/stylesheet.css');
+@import url('../fonts/Skyline-Beach-NBP-Regular/stylesheet.css');
 * {
-  background-color:#242424;
-  font-family:"Amatic SC";
-  font-weight:bold;
-  font-size:35px;
-  letter-spacing:3px;
-  color:#bcbcbc;
+  background-color:#252a34;
+  color:#eaeaea;
+  font-family:"syn_novaregular", "Skyline-Beach-NBP-Regular"/*"Astradyne-Bold"*/, sans-serif;
+  text-shadow:5px 3px 0 #000000;
+  font-size:32px;
+  line-height:2em;
+  letter-spacing:0.04em;
+  text-decoration:none;
+  outline:none;
 }
 
-body {
+/*Input*/
+input {
+  font-size:30px;
+  margin:5px 5px;
+  padding:0 0 0 7px;
+  width:600px;
+  background-color:hsl(220,17%,14%);
+  color:#08d9d6;
+  border:1px solid #08d9d6;
+  box-shadow:5px 3px 0 #000000;
+}
+
+input:focus {
+  border:1px solid #08d9d6;
+  box-shadow:5px 3px 0 #08d9d6;
+}
+/*Input's end*/
+
+/*link*/
+a:link {
+  color:#08d9d6;
+}
+
+a:visited {
+  color:#06B1AF;
+}
+
+a:hover {
+  color:#ff2e63;
+}
+
+a:active {
+  color:#777788;
+}
+
+a:focus {
+  color:#ff2e63;
+}
+/*link's end*/
+
+.style-fst-line:first-letter {
+  color:#ff2e63;
+  text-decoration:underline;
+  text-shadow:-1px 1px 0 #757575;
+}
+
+.prestyle {
   text-align:center;
-}
-
-.introline {
-  font-family:"Fira Code", sans-serif;
-}
-
-.Author_and_book {
-text-transform:capitalize;
-}
-
-.tuppercase {
-  text-transform:uppercase;
 }
