@@ -11,11 +11,26 @@
   letter-spacing:0.04em;
   text-decoration:none;
   outline:none;
+/*scrollbar (Firefox)*/
+  scrollbar-width:thin;
+  scrollbar-color:#128587 hsl(220,17%,14%);
+  caret-color:#08d9d6;
+/*scrollbar (Firefox)'s end*/
 }
-
-/*Input*/
-input {
-  font-size:30px;
+/* scrollbar для Chrome/Edge/Safari*/
+*::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+*::-webkit-scrollbar-track {
+  background:hsl(220,17%,14%);
+}
+*::-webkit-scrollbar-thumb {
+  background-color:#128587;
+/*  border: 3px solid orange;*/
+}
+/*scrollbar для Chrome/Edge/Safari's end*/
+.cyberborder {
   margin:5px 5px;
   padding:0 0 0 7px;
   width:600px;
@@ -25,11 +40,30 @@ input {
   box-shadow:5px 3px 0 #000000;
 }
 
+/*Input*/
+input, textarea {
+  font-size:30px;
+}
+
 input:focus {
   border:1px solid #08d9d6;
   box-shadow:5px 3px 0 #08d9d6;
 }
 /*Input's end*/
+
+/*Textarea*/
+textarea {
+  margin:10px 5px 5px 5px;
+  font-size:20px;
+  width:495px;
+  height:130px;
+}
+
+textarea:focus {
+  border:1px solid #08d9d6;
+  box-shadow:5px 3px 0 #08d9d6;
+}
+/*Textarea*/
 
 /*link*/
 a:link {
@@ -44,21 +78,34 @@ a:hover {
   color:#ff2e63;
 }
 
-a:active {
-  color:#777788;
-}
-
 a:focus {
   color:#ff2e63;
 }
+
+a:active {
+  color:#777788;
+}
 /*link's end*/
 
-.style-fst-line:first-letter {
-  color:#ff2e63;
-  text-decoration:underline;
-  text-shadow:-1px 1px 0 #757575;
+.textstyle {
+  text-align:center;
 }
 
-.prestyle {
+.fish-text {
+  margin:42px 42px 20px;
+  padding:0 10px;
+  box-shadow:5px 3px 0 #000000;
+  border:1px solid #08d9d6;
+  background-color:hsl(220,17%,14%);
   text-align:center;
+  width:800px;
+  height:250px;
+  /*scrollbar in this paragraph*/
+  overflow:scroll;
+  overflow-x:hidden;
+  /*scrollbar in this paragraph's end*/
+}
+
+.fish-text-p {
+  background-color:hsl(220,17%,14%);
 }
