@@ -1,6 +1,7 @@
 @import url('null.css');
 @import url('../fonts/SYN_Nova_squirrel/stylesheet.css');
 @import url('../fonts/Skyline-Beach-NBP-Regular/stylesheet.css');
+
 * {
   background-color:#252a34;
   color:#eaeaea;
@@ -65,7 +66,7 @@ textarea {
 
 textarea:focus {
   border:1px solid #08d9d6;
-  box-shadow:5px 3px 0 #08d9d6;
+  box-shadow:5px 3px 0 #08d9d6; 
 }
 /*Textarea*/
 /*button "push"*/
