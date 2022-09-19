@@ -111,6 +111,11 @@ a:active {
 }
 /*link's end*/
 
+.headtextstyle {
+  font-size: 42px;
+  margin: 0 0 15px 0;
+}
+
 .textstyle {
   text-align:center;
 }
